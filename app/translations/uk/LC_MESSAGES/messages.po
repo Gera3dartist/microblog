@@ -1,0 +1,106 @@
+# Ukrainian translations for PROJECT.
+# Copyright (C) 2015 ORGANIZATION
+# This file is distributed under the same license as the PROJECT project.
+# FIRST AUTHOR <EMAIL@ADDRESS>, 2015.
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: PROJECT VERSION\n"
+"Report-Msgid-Bugs-To: EMAIL@ADDRESS\n"
+"POT-Creation-Date: 2015-02-27 01:20+0200\n"
+"PO-Revision-Date: 2015-02-27 01:22+0200\n"
+"Last-Translator: \n"
+"Language-Team: uk <LL@li.org>\n"
+"Plural-Forms: nplurals=3; plural=(n%10==1 && n%100!=11 ? 0 : n%10>=2 && n"
+"%10<=4 && (n%100<10 || n%100>=20) ? 1 : 2);\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=utf-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Generated-By: Babel 1.3\n"
+"Language: uk\n"
+"X-Generator: Poedit 1.7.4\n"
+
+#: app/__init__.py:54
+msgid "Please log in to access this page."
+msgstr "Будь ласка Увійдіть, щоб отримати доступ до цієї сторінки."
+
+#: app/forms.py:26
+msgid ""
+"{}\n"
+"{}"
+msgstr ""
+
+#: app/translate.py:15
+msgid "Error: translation service not configured."
+msgstr "Помилка: служба перекладу не настроєно."
+
+#: app/translate.py:39
+msgid "Error: Uexpected error."
+msgstr "Помилка: Uexpected error."
+
+#: app/views.py:44
+msgid "Your post is now live!"
+msgstr "Ваша публікація додана!"
+
+#: app/views.py:64
+#, python-format
+msgid "Login requested for OpenID=\"%(openid)s\", remember_me=%(remember_me)s"
+msgstr "Запит для OpenID=\"%(openid)s\", remember_me=%(remember_me)s"
+
+#: app/views.py:81
+msgid "Invalid login. Please retry again."
+msgstr "Невірний логін. Будь ласка, спробуйте ще раз."
+
+#: app/views.py:120 app/views.py:177
+#, python-format
+msgid "User %(nickname)s not found."
+msgstr "Користувача %(nickname)s не знайдено."
+
+#: app/views.py:136
+msgid "Your changes had been saved"
+msgstr "Ваші змінни збережені!"
+
+#: app/views.py:157
+#, python-format
+msgid "User %(user)s not found"
+msgstr "Користувача %(user)s не знайдено!"
+
+#: app/views.py:160
+msgid "You can't follow yourself"
+msgstr "Ви не можете слідувати себе"
+
+#: app/views.py:164
+#, python-format
+msgid "Cannot follow %(nickname)s."
+msgstr "Не можу слідувати  %(nickname)s."
+
+#: app/views.py:168
+#, python-format
+msgid "You are now following %(nickname)s!"
+msgstr "Ви слідуєте за %(nickname)s!"
+
+#: app/views.py:180
+msgid "You can't unfollow yourself."
+msgstr "Ви не можете перестати слідувати себе"
+
+#: app/views.py:184
+#, python-format
+msgid "Cannot unfollow %(nickname)s."
+msgstr "Не можу не слідувати  %(nickname)s."
+
+#: app/views.py:188
+#, python-format
+msgid "You have stopped following %(nickname)s."
+msgstr "Ви перестали слідувати за %(nickname)s."
+
+#: app/templates/base.html:32
+msgid "Home"
+msgstr "Головна"
+
+#: app/templates/base.html:35
+msgid "Your Profile"
+msgstr "Профіль"
+
+#: app/templates/base.html:36
+msgid "Logout"
+msgstr "Вилогуватись"
